@@ -8,7 +8,7 @@ from odoo.exceptions import UserError
 
 
 class Channel(models.Model):
-    _inherit = 'mail.channel'
+    _inherit = 'discuss.channel'
 
     def _notify_thread(self, message, msg_vals=False, **kwargs):
         rdata = super(Channel, self)._notify_thread(message, msg_vals=msg_vals, **kwargs)
