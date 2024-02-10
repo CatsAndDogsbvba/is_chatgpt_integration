@@ -7,7 +7,7 @@
             <field name="image_128" type="base64" file="is_chatgpt_integration/static/description/chatgpt.png"/>
         </record>
 
-        <record model="discuss.message" id="module_install_notification">
+        <record model="mail.message" id="module_install_notification">
             <field name="model">discuss.channel</field>
             <field name="res_id" ref="is_chatgpt_integration.channel_chatgpt"/>
             <field name="message_type">email</field>
