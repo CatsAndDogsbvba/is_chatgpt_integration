@@ -11,7 +11,7 @@
             <field name="model">discuss.channel</field>
             <field name="res_id" ref="is_chatgpt_integration.channel_chatgpt"/>
             <field name="message_type">email</field>
-            <field name="subtype_id" ref="discuss.mt_comment"/>
+            <field name="subtype_id" ref="mail.mt_comment"/>
             <field name="subject">Welcome to ChatGPT Channel!</field>
             <field name="body"><![CDATA[<p>Welcome to the #ChatGPT channel.</p>
             <p>Ask your questions to ChatGPT</b>.</p>]]></field>
