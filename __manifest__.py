@@ -15,7 +15,7 @@
     'data': [
         'security/ir.model.access.csv',
         'data/chatgpt_model_data.xml',
-        'data/mail_channel_data.xml',
+        'data/discuss_channel_data.xml',
         'data/user_partner_data.xml',
         'views/res_config_settings_views.xml',
     ],
